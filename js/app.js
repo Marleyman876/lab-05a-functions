@@ -61,8 +61,8 @@ let sumTwo = sum (sumOne,c)[0];  //sumTwo equal the sum of a+b+c
 let prodAb = multiply(a, b)[0];
 let finalProduct = multiply(prodAb , c)[0]; //product of abc
 
-let sumAdd = `${a} and ${b} and ${c} sum to ${sumTwo}.`
-let totalMultiply = `The product of ${a} and ${b} and ${c} is ${finalProduct}.`
+let sumAdd = `${a} and ${b} and ${c} sum to ${sumTwo}.`;
+let totalMultiply = `The product of ${a} and ${b} and ${c} is ${finalProduct}.`;
 
 return [sumTwo,finalProduct,sumAdd,totalMultiply];
 
